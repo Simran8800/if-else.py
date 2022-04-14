@@ -1,13 +1,8 @@
-# salary=int(input("enter the salary"))
-# b=salary*5/100
-# if (salary>=10000):
-#     print("bonus=",b)
-# elif salary==salary+b:
-#     print("total salary=",salary)
-# else:
-#     print("no bonus only salary")
-    
-
-
-
-
+p=int(input("enter the n"))
+if p>100000:
+    tax=p*15/100
+if p>50000 and  p<=100000:
+    tax=p*10/100
+if p<=50000:
+    tax=p*5/100
+print(tax)
